@@ -1,0 +1,59 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/Notes/{API}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7000
+        }
+      ],
+      "UpstreamPathTemplate": "/Notes/{API}",
+      "UpstreamHttpMethod": ["Get","Post","Delete","Put"]
+    },
+    {
+      "DownstreamPathTemplate": "/swagger/v1/swagger.json",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7000
+        }
+      ],
+      "UpstreamPathTemplate": "/Note/v1/swagger.json",
+      "UpstreamHttpMethod": ["Get","Post","Delete","Put"]
+    },
+
+
+
+    {
+      "DownstreamPathTemplate": "/Identity/{API}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/Identity/{API}",
+      "UpstreamHttpMethod": ["Get","Post","Delete","Put"]
+    },
+    {
+      "DownstreamPathTemplate": "/swagger/v1/swagger.json",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/IdentitySwagger/v1/swagger.json",
+      "UpstreamHttpMethod": ["Get","Post","Delete","Put"]
+    }
+  ],
+  
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:9000"
+  }
+}

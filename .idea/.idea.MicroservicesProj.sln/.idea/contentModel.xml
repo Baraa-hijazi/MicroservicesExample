@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Baraa Hijazi\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Baraa Hijazi\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_MicroservicesProj.sln.801880849.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Baraa Hijazi\Desktop\MIcroServices" t="IncludeFlat">
+      <e p="ApiGateway" t="IncludeRecursive">
+        <e p="ApiGateway.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ApiGateway.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ocelot.json" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="IdentityService" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+          <e p="AdministrationController.cs" t="Include" />
+          <e p="BaseController.cs" t="Include" />
+        </e>
+        <e p="Core" t="Include">
+          <e p="Dtos" t="Include">
+            <e p="Account" t="Include">
+              <e p="AssignRoleDto.cs" t="Include" />
+              <e p="CreateRoleDto.cs" t="Include" />
+              <e p="LoginDto.cs" t="Include" />
+              <e p="RegisterDto.cs" t="Include" />
+            </e>
+            <e p="PagedResultDto.cs" t="Include" />
+          </e>
+          <e p="Entities" t="Include">
+            <e p="ApplicationUser.cs" t="Include" />
+          </e>
+        </e>
+        <e p="IdentityService.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20201019095147_Init.cs" t="Include" />
+          <e p="20201019095147_Init.Designer.cs" t="Include" />
+          <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="IdentityService.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Persistence" t="Include">
+          <e p="Contexts" t="Include">
+            <e p="ApplicationDbContext.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="IBaseRepository.cs" t="Include" />
+            <e p="IUnitOfWork.cs" t="Include" />
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="BaseRepository.cs" t="Include" />
+          </e>
+          <e p="UnitOfWork" t="Include">
+            <e p="UnitOfWork.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="Account" t="Include">
+            <e p="AdministrationService.cs" t="Include" />
+            <e p="UserService.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="Account" t="Include">
+              <e p="IAdminstrationServices.cs" t="Include" />
+              <e p="IUserService.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Mapping" t="Include">
+            <e p="MappingProfile.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="MicroservicesProj.sln.sln" t="IncludeFlat" />
+      <e p="Note-TakingService" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="NotesController.cs" t="Include" />
+        </e>
+        <e p="Core" t="Include">
+          <e p="Dtos" t="Include">
+            <e p="EditNoteDto.cs" t="Include" />
+            <e p="NotesDto.cs" t="Include" />
+            <e p="PagedResultDto.cs" t="Include" />
+          </e>
+          <e p="Entities" t="Include">
+            <e p="Notes.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20201018074406_InitialCreate.cs" t="Include" />
+          <e p="20201018074406_InitialCreate.Designer.cs" t="Include" />
+          <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Note-TakingService.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Note-TakingService.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Persistence" t="Include">
+          <e p="Contexts" t="Include">
+            <e p="ApplicationDbContext.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="IBaseRepository.cs" t="Include" />
+            <e p="IUnitOfWork.cs" t="Include" />
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="BaseRepository.cs" t="Include" />
+          </e>
+          <e p="UnitOfWork" t="Include">
+            <e p="UnitOfWork.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="Interfaces" t="Include">
+            <e p="INotesService.cs" t="Include" />
+          </e>
+          <e p="Mapping" t="Include">
+            <e p="MappingProfile.cs" t="Include" />
+          </e>
+          <e p="NotesService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
